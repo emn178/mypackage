@@ -1,6 +1,6 @@
 {
   "name": "mypackage",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": ["src/mypackage.js"],
   "ignore": [
     "samples",
@@ -8,5 +8,9 @@
   ],
   "dependencies": {
     "jquery": ">= 1.6"
+  },
+  "devDependencies": {
+    "mocha": "~2.1.0",
+    "expect.js": "~0.2.0"
   }
 }
