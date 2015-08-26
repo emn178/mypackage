@@ -1,5 +1,5 @@
 ;(function($) {
 	$.fn.mypackage = function() {
-		return 'Hello world.';
+		this.text('Hello world.');
 	};
 })(jQuery);
